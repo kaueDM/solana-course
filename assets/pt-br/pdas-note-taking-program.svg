@@ -1,0 +1,185 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="2016" height="1704" viewBox="264 -1320 2016 1704">
+  <defs>
+    <filter id="white-fill-shadow">
+      <feDropShadow dx="0" dy="2" flood-color="#000" flood-opacity=".03" stdDeviation="6"/>
+    </filter>
+    <filter id="light-gray-fill-shadow">
+      <feDropShadow dx="0" dy="2" flood-color="#000" flood-opacity=".09" stdDeviation="6"/>
+    </filter>
+    <filter id="yellow-fill-shadow">
+      <feDropShadow dx="0" dy="2" flood-color="#000" flood-opacity=".12" stdDeviation="6"/>
+    </filter>
+    <filter id="fill-shadow">
+      <feDropShadow dx="0" dy="2" flood-color="#000" flood-opacity=".16" stdDeviation="6"/>
+    </filter>
+    <filter id="frame-shadow">
+      <feDropShadow dx="0" dy="3" flood-color="#000" flood-opacity=".06" stdDeviation="8"/>
+    </filter>
+    <filter id="button-shadow">
+      <feDropShadow dx="0" dy="2" flood-color="#000" flood-opacity=".03" stdDeviation="6"/>
+    </filter>
+    <filter id="button-hover-shadow">
+      <feDropShadow dx="0" dy="2" flood-color="#000" flood-opacity=".08" stdDeviation="6"/>
+    </filter>
+    <filter id="badge-shadow">
+      <feDropShadow dx="0" dy="2" flood-color="#000" flood-opacity=".08" stdDeviation="6"/>
+    </filter>
+    <style>
+      @font-face{font-family:&quot;DIN Next&quot;;font-weight:400;src:url(https://whimsical.com/fonts/139e8e25-0eea-4cb4-a5d4-79048803e73d.eot?#iefix);src:url(https://whimsical.com/fonts/139e8e25-0eea-4cb4-a5d4-79048803e73d.eot?#iefix)format(&quot;eot&quot;),url(https://whimsical.com/fonts/094b15e3-94bd-435b-a595-d40edfde661a.woff2)format(&quot;woff2&quot;),url(https://whimsical.com/fonts/7e5fbe11-4858-4bd1-9ec6-a1d9f9d227aa.woff)format(&quot;woff&quot;),url(https://whimsical.com/fonts/0f11eff9-9f05-46f5-9703-027c510065d7.ttf)format(&quot;truetype&quot;),url(https://whimsical.com/fonts/48b61978-3f30-4274-823c-5cdcd1876918.svg#48b61978-3f30-4274-823c-5cdcd1876918)format(&quot;svg&quot;)}@font-face{font-family:&quot;DIN Next&quot;;font-weight:400;font-style:italic;src:url(https://whimsical.com/fonts/df24d5e8-5087-42fd-99b1-b16042d666c8.eot?#iefix);src:url(https://whimsical.com/fonts/df24d5e8-5087-42fd-99b1-b16042d666c8.eot?#iefix)format(&quot;eot&quot;),url(https://whimsical.com/fonts/46251881-ffe9-4bfb-99c7-d6ce3bebaf3e.woff2)format(&quot;woff2&quot;),url(https://whimsical.com/fonts/790ebbf2-62c5-4a32-946f-99d405f9243e.woff)format(&quot;woff&quot;),url(https://whimsical.com/fonts/d28199e6-0f4a-42df-97f4-606701c6f75a.ttf)format(&quot;truetype&quot;),url(https://whimsical.com/fonts/37a462c0-d86e-492c-b9ab-35e6bd417f6c.svg#37a462c0-d86e-492c-b9ab-35e6bd417f6c)format(&quot;svg&quot;)}@font-face{font-weight:500;font-family:&quot;DIN Next&quot;;src:url(https://whimsical.com/fonts/c5b058fc-55ce-4e06-a175-5c7d9a7e90f4.eot?#iefix);src:url(https://whimsical.com/fonts/c5b058fc-55ce-4e06-a175-5c7d9a7e90f4.eot?#iefix)format(&quot;eot&quot;),url(https://whimsical.com/fonts/7b29ae40-30ff-4f99-a2b9-cde88669fa2f.woff2)format(&quot;woff2&quot;),url(https://whimsical.com/fonts/bf73077c-e354-4562-a085-f4703eb1d653.woff)format(&quot;woff&quot;),url(https://whimsical.com/fonts/0ffa6947-5317-4d07-b525-14d08a028821.ttf)format(&quot;truetype&quot;),url(https://whimsical.com/fonts/9e423e45-5450-4991-a157-dbe6cf61eb4e.svg#9e423e45-5450-4991-a157-dbe6cf61eb4e)format(&quot;svg&quot;)}@font-face{font-family:&quot;DIN Next&quot;;font-weight:500;font-style:italic;src:url(https://whimsical.com/fonts/9897c008-fd65-48a4-afc7-36de2fea97b9.eot?#iefix);src:url(https://whimsical.com/fonts/9897c008-fd65-48a4-afc7-36de2fea97b9.eot?#iefix)format(&quot;eot&quot;),url(https://whimsical.com/fonts/c7717981-647d-4b76-8817-33062e42d11f.woff2)format(&quot;woff2&quot;),url(https://whimsical.com/fonts/b852cd4c-1255-40b1-a2be-73a9105b0155.woff)format(&quot;woff&quot;),url(https://whimsical.com/fonts/821b00ad-e741-4e2d-af1a-85594367c8a2.ttf)format(&quot;truetype&quot;),url(https://whimsical.com/fonts/d3e3b689-a6b0-45f2-b279-f5e194f87409.svg#d3e3b689-a6b0-45f2-b279-f5e194f87409)format(&quot;svg&quot;)}@font-face{font-weight:700;font-family:&quot;DIN Next&quot;;src:url(https://whimsical.com/fonts/81cd3b08-fd39-4ae3-8d05-9d24709eba84.eot?#iefix);src:url(https://whimsical.com/fonts/81cd3b08-fd39-4ae3-8d05-9d24709eba84.eot?#iefix)format(&quot;eot&quot;),url(https://whimsical.com/fonts/31704504-4671-47a6-a61e-397f07410d91.woff2)format(&quot;woff2&quot;),url(https://whimsical.com/fonts/b8a280da-481f-44a0-8d9c-1bc64bd7227c.woff)format(&quot;woff&quot;),url(https://whimsical.com/fonts/276d122a-0fab-447b-9fc0-5d7fb0eafce2.ttf)format(&quot;truetype&quot;),url(https://whimsical.com/fonts/8fb8273a-8213-4928-808b-b5bfaf3fd7e9.svg#8fb8273a-8213-4928-808b-b5bfaf3fd7e9)format(&quot;svg&quot;)}@font-face{font-family:&quot;DIN Next&quot;;font-weight:700;font-style:italic;src:url(https://whimsical.com/fonts/00cc6df3-ed32-4004-8dd8-1c576600a408.eot?#iefix);src:url(https://whimsical.com/fonts/00cc6df3-ed32-4004-8dd8-1c576600a408.eot?#iefix)format(&quot;eot&quot;),url(https://whimsical.com/fonts/4132c4c8-680c-4d6d-9251-a2da38503bbd.woff2)format(&quot;woff2&quot;),url(https://whimsical.com/fonts/366401fe-6df4-47be-8f55-8a411cff0dd2.woff)format(&quot;woff&quot;),url(https://whimsical.com/fonts/dbe4f7ba-fc16-44a6-a577-571620e9edaf.ttf)format(&quot;truetype&quot;),url(https://whimsical.com/fonts/f874edca-ee87-4ccf-8b1d-921fbc3c1c36.svg#f874edca-ee87-4ccf-8b1d-921fbc3c1c36)format(&quot;svg&quot;)}@font-face{font-family:&quot;PFDINMonoPro&quot;;src:url(https://whimsical.com/fonts/PFDINMonoPro-Regular.woff)format(&quot;woff&quot;);font-weight:400}@font-face{font-family:&quot;PFDINMonoPro&quot;;src:url(https://whimsical.com/fonts/PFDINMonoPro-Italic.woff)format(&quot;woff&quot;);font-style:italic;font-weight:400}@font-face{font-family:&quot;PFDINMonoPro&quot;;src:url(https://whimsical.com/fonts/PFDINMonoPro-Bold.woff)format(&quot;woff&quot;);font-weight:700}@font-face{font-family:&quot;PFDINMonoPro&quot;;src:url(https://whimsical.com/fonts/PFDINMonoPro-BoldItalic.woff)format(&quot;woff&quot;);font-style:italic;font-weight:700}*{-webkit-font-smoothing:auto;-moz-osx-font-smoothing:auto}@media print{svg{width:100%;height:100%}}#sce8417f4-9b6e-4c14-a061-841f68202d19 [fill=&quot;#444&quot;]{fill:#e8833a}#sce8417f4-9b6e-4c14-a061-841f68202d19 [stroke=&quot;#444&quot;],#sce8417f4-9b6e-4c14-a061-841f68202d19 [stroke=&quot;#444444&quot;]{stroke:#e8833a}#s0d28bcf0-fe42-45ad-b2e8-75042aa803ba [fill=&quot;#444444&quot;]{fill:#730fc3}#s0d28bcf0-fe42-45ad-b2e8-75042aa803ba [stroke=&quot;#444&quot;],#s0d28bcf0-fe42-45ad-b2e8-75042aa803ba [stroke=&quot;#444444&quot;]{stroke:#730fc3}#s1b282ad4-3a1d-4c2c-8f8f-8f997a762f94 [fill=&quot;#444&quot;],#s1b282ad4-3a1d-4c2c-8f8f-8f997a762f94 [fill=&quot;#444444&quot;]{fill:#bd34d1}#s1b282ad4-3a1d-4c2c-8f8f-8f997a762f94 [stroke=&quot;#444&quot;],#s1b282ad4-3a1d-4c2c-8f8f-8f997a762f94 [stroke=&quot;#444444&quot;]{stroke:#bd34d1}#s4d5cf163-bde5-423d-9e89-260858bbfaa7 [fill=&quot;#444&quot;]{fill:#e8833a}#s4d5cf163-bde5-423d-9e89-260858bbfaa7 [stroke=&quot;#444&quot;],#s4d5cf163-bde5-423d-9e89-260858bbfaa7 [stroke=&quot;#444444&quot;]{stroke:#e8833a}#s37c6d24d-a364-4b42-a8b1-e2294a1a75ae [fill=&quot;#444&quot;],#s37c6d24d-a364-4b42-a8b1-e2294a1a75ae [fill=&quot;#444444&quot;]{fill:#bd34d1}#s37c6d24d-a364-4b42-a8b1-e2294a1a75ae [stroke=&quot;#444&quot;],#s37c6d24d-a364-4b42-a8b1-e2294a1a75ae [stroke=&quot;#444444&quot;]{stroke:#bd34d1}#s5ba66acb-97ca-457c-8644-9e133fdfd4b7 [fill=&quot;#444&quot;]{fill:#e8833a}#s5ba66acb-97ca-457c-8644-9e133fdfd4b7 [stroke=&quot;#444&quot;],#s5ba66acb-97ca-457c-8644-9e133fdfd4b7 [stroke=&quot;#444444&quot;]{stroke:#e8833a}
+    </style>
+  </defs>
+  <path fill="#FFF" d="M264-1320h2016V384H264z" filter="url(#frame-shadow)"/>
+  <path fill="#FFF" d="M264-1320h2016V384H264z"/>
+  <svg width="2016" height="1704" x="264" y="-1320" viewBox="264 -1320 2016 1704">
+    <path fill="none" stroke="#730FC3" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M396-1212c143.5 278.833 287 557.667 559 740 272 182.333 672.5 268.167 1073 354"/>
+    <g class="content">
+      <text fill="#293845"><tspan x="1167" y="-395.5" font-family="DIN Next, sans-serif" font-size="36">Curva Ed25519</tspan></text>
+    </g>
+    <path fill="#fae6d8" stroke="#E8833A" stroke-width="2" d="M429-189h290.5v125H429z"/>
+    <g transform="translate(450 -147)">
+      <svg id="sce8417f4-9b6e-4c14-a061-841f68202d19" width="36" height="36" data-icon-color="#E8833A" data-icon-name="list" data-icon-partition="g48-5" viewBox="0 0 48 48">
+        <path fill="#444" d="M41 1H7a2 2 0 0 0-2 2v42a2 2 0 0 0 2 2h34a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zM15 38a2 2 0 1 1-.001-3.999A2 2 0 0 1 15 38zm4.707-16.293-5 5a.997.997 0 0 1-1.414 0l-2-2a.999.999 0 1 1 1.414-1.414L14 24.586l4.293-4.293a.999.999 0 1 1 1.414 1.414zm0-12-5 5a.997.997 0 0 1-1.414 0l-2-2a.999.999 0 1 1 1.414-1.414L14 12.586l4.293-4.293a.999.999 0 1 1 1.414 1.414zM36 37H24a1 1 0 1 1 0-2h12a1 1 0 1 1 0 2zm0-12H24a1 1 0 1 1 0-2h12a1 1 0 1 1 0 2zm0-12H24a1 1 0 1 1 0-2h12a1 1 0 1 1 0 2z" style="fill:#e8833a"/>
+      </svg>
+    </g>
+    <g class="content">
+      <text fill="#293845"><tspan x="503" y="-141.5" font-family="DIN Next, sans-serif" font-size="18">42 mile beach</tspan></text>
+      <text fill="#293845"><tspan x="503" y="-117.5" font-family="DIN Next, sans-serif" font-size="18">Yosemite</tspan></text>
+      <text fill="#293845"><tspan x="503" y="-93.5" font-family="DIN Next, sans-serif" font-size="18">Blue lagoon</tspan></text>
+    </g>
+    <g class="content">
+      <text fill="#293845"><tspan x="430" y="-197.5" font-family="DIN Next, sans-serif" font-size="18">ENDEREÇO DERIVADO DO PROGRAMA</tspan></text>
+    </g>
+    <g class="content">
+      <text fill="#293845"><tspan x="737" y="-679.5" font-family="DIN Next, sans-serif" font-size="18">ENDEREÇO</tspan></text>
+    </g>
+    <circle cx="717.5" cy="-684.5" r="11" fill="#e3cff3"/>
+    <path fill="#e3cff3" stroke="#730FC3" stroke-width="2" d="M491-916h246v160H491z"/>
+    <g class="content">
+      <text fill="#293845"><tspan x="507" y="-886.5" font-family="DIN Next, sans-serif" font-size="18">PROGRAMA DE ANOTAÇÕES</tspan></text>
+    </g>
+    <g transform="translate(507.683 -870.45)">
+      <svg id="s0d28bcf0-fe42-45ad-b2e8-75042aa803ba" width="42.9" height="42.9" data-icon-color="#730FC3" data-icon-name="cogwheel" data-icon-partition="g12-1" viewBox="0 0 12 12">
+        <path fill="#444" d="m11.555 5-1.486-.165a4.223 4.223 0 0 0-.37-.893l.934-1.168a.5.5 0 0 0-.037-.666L9.889 1.4a.5.5 0 0 0-.666-.037L8.055 2.3a4.223 4.223 0 0 0-.893-.37L7 .445A.5.5 0 0 0 6.5 0h-1a.5.5 0 0 0-.5.445l-.162 1.486a4.223 4.223 0 0 0-.893.37l-1.168-.934a.5.5 0 0 0-.666.037l-.711.707a.5.5 0 0 0-.037.666L2.3 3.945a4.223 4.223 0 0 0-.37.893L.445 5A.5.5 0 0 0 0 5.5v1a.5.5 0 0 0 .445.5l1.486.165a4.223 4.223 0 0 0 .37.893l-.934 1.165a.5.5 0 0 0 .037.666l.707.707a.5.5 0 0 0 .666.037L3.945 9.7a4.223 4.223 0 0 0 .893.37L5 11.555a.5.5 0 0 0 .5.445h1a.5.5 0 0 0 .5-.445l.165-1.486a4.223 4.223 0 0 0 .893-.37l1.168.934a.5.5 0 0 0 .666-.037l.707-.707a.5.5 0 0 0 .037-.666L9.7 8.055a4.223 4.223 0 0 0 .37-.893L11.555 7A.5.5 0 0 0 12 6.5v-1a.5.5 0 0 0-.445-.5ZM6 8a2 2 0 1 1 2-2 2 2 0 0 1-2 2Z" style="fill:#730fc3"/>
+      </svg>
+    </g>
+    <g class="content">
+      <text fill="#293845"><tspan x="565" y="-852.5" font-family="DIN Next, sans-serif" font-size="18">Criar</tspan></text>
+      <text fill="#293845"><tspan x="565" y="-828.5" font-family="DIN Next, sans-serif" font-size="18">Apagar</tspan></text>
+      <text fill="#293845"><tspan x="565" y="-804.5" font-family="DIN Next, sans-serif" font-size="18">Atualizar</tspan></text>
+      <text fill="#293845"><tspan x="565" y="-780.5" font-family="DIN Next, sans-serif" font-size="18">Remover</tspan></text>
+    </g>
+    <path fill="#f2d6f6" stroke="#BD34D1" stroke-width="2" d="M708.5-660.5h240V-556h-240z"/>
+    <g class="content">
+      <text fill="#293845"><tspan x="771" y="-590.5" font-family="DIN Next, sans-serif" font-size="18">◎15 SOL</tspan></text>
+    </g>
+    <g class="content">
+      <text fill="#293845"><tspan x="726" y="-625.5" font-family="DIN Next, sans-serif" font-size="18">Carteira da Alice</tspan></text>
+    </g>
+    <g transform="translate(720.5 -610.5)">
+      <svg id="s1b282ad4-3a1d-4c2c-8f8f-8f997a762f94" width="36" height="36" data-icon-color="#BD34D1" data-icon-name="single-02" data-icon-partition="g48-8" viewBox="0 0 48 48">
+        <path fill="#444" d="M30 29H18c-7.168 0-13 5.832-13 13v2c0 .435.281.82.695.953C5.957 45.036 12.229 47 24 47s18.043-1.964 18.305-2.047c.414-.133.695-.518.695-.953v-2c0-7.168-5.832-13-13-13z"/>
+        <path fill="#444" d="M24 25c6.195 0 11-6.988 11-13 0-6.065-4.935-11-11-11S13 5.935 13 12c0 6.012 4.805 13 11 13z" data-color="color-2"/>
+      </svg>
+    </g>
+    <g class="content">
+      <text fill="#293845"><tspan x="565" y="-929.5" font-family="DIN Next, sans-serif" font-size="18">ENDEREÇO</tspan></text>
+    </g>
+    <circle cx="545.5" cy="-934.5" r="11" fill="#e3cff3" stroke="#730FC3" stroke-width="2"/>
+    <path fill="none" stroke="#C3CFD9" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M808-548v149c0 8.284-6.716 15-15 15h-53.5m-45 0H637c-8.284 0-15 6.716-15 15v141"/>
+    <path fill="#C3CFD9" stroke="#C3CFD9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M627.541-231.092 622-224l-5.541-7.092z"/>
+    <text xml:space="preserve" x="698.5" y="-396" fill="#788896" font-family="DIN Next, sans-serif" font-size="18"><tspan x="717" y="-378" style="white-space:pre" text-anchor="middle">cria</tspan></text>
+    <path fill="none" stroke="#C3CFD9" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M491-548v147c0 8.284 6.716 15 15 15h4.5m45 0h3.5c8.284 0 15 6.716 15 15v143"/>
+    <path fill="#C3CFD9" stroke="#C3CFD9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M579.541-231.092 574-224l-5.541-7.092z"/>
+    <text xml:space="preserve" x="514.5" y="-398" fill="#788896" font-family="DIN Next, sans-serif" font-size="18"><tspan x="533" y="-380" style="white-space:pre" text-anchor="middle">cria</tspan></text>
+    <path fill="#fae6d8" stroke="#E8833A" stroke-width="2" d="M801-22h290.5v158H801z"/>
+    <g transform="translate(817 22)">
+      <svg id="s4d5cf163-bde5-423d-9e89-260858bbfaa7" width="36" height="36" data-icon-color="#E8833A" data-icon-name="list" data-icon-partition="g48-5" viewBox="0 0 48 48">
+        <path fill="#444" d="M41 1H7a2 2 0 0 0-2 2v42a2 2 0 0 0 2 2h34a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zM15 38a2 2 0 1 1-.001-3.999A2 2 0 0 1 15 38zm4.707-16.293-5 5a.997.997 0 0 1-1.414 0l-2-2a.999.999 0 1 1 1.414-1.414L14 24.586l4.293-4.293a.999.999 0 1 1 1.414 1.414zm0-12-5 5a.997.997 0 0 1-1.414 0l-2-2a.999.999 0 1 1 1.414-1.414L14 12.586l4.293-4.293a.999.999 0 1 1 1.414 1.414zM36 37H24a1 1 0 1 1 0-2h12a1 1 0 1 1 0 2zm0-12H24a1 1 0 1 1 0-2h12a1 1 0 1 1 0 2zm0-12H24a1 1 0 1 1 0-2h12a1 1 0 1 1 0 2z" style="fill:#e8833a"/>
+      </svg>
+    </g>
+    <g class="content">
+      <text fill="#293845"><tspan x="875" y="25.5" font-family="DIN Next, sans-serif" font-size="18">Pão Ciabatta</tspan></text>
+      <text fill="#293845"><tspan x="875" y="49.5" font-family="DIN Next, sans-serif" font-size="18">Pimentões em conserva</tspan></text>
+      <text fill="#293845"><tspan x="875" y="73.5" font-family="DIN Next, sans-serif" font-size="18">Cebolas vermelhas</tspan></text>
+      <text fill="#293845"><tspan x="875" y="97.5" font-family="DIN Next, sans-serif" font-size="18">Orégano</tspan></text>
+    </g>
+    <g class="content">
+      <text fill="#293845"><tspan x="802" y="-30.5" font-family="DIN Next, sans-serif" font-size="18">ENDEREÇO DERIVADO DO PROGRAMA</tspan></text>
+    </g>
+    <path fill="none" stroke="#C3CFD9" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M840-544v234m0 28v229"/>
+    <path fill="#C3CFD9" stroke="#C3CFD9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M845.541-56.092 840-49l-5.541-7.092z"/>
+    <text xml:space="preserve" x="821.5" y="-308" fill="#788896" font-family="DIN Next, sans-serif" font-size="18"><tspan x="840" y="-290" style="white-space:pre" text-anchor="middle">cria</tspan></text>
+    <g class="content">
+      <text fill="#293845"><tspan x="737" y="-679.5" font-family="DIN Next, sans-serif" font-size="18">ENDEREÇO</tspan></text>
+    </g>
+    <circle cx="717.5" cy="-684.5" r="11" fill="#e3cff3" stroke="#730FC3" stroke-width="2"/>
+    <rect width="253" height="77" x="358" y="-633" fill="#FFF" filter="url(#fill-shadow)" rx="3" ry="3"/>
+    <rect width="253" height="77" x="358" y="-633" fill="#2C88D9" rx="3" ry="3"/>
+    <g class="content">
+      <text fill="#FFF"><tspan x="405.012" y="-588" font-family="DIN Next, sans-serif" font-size="18">“Ideias para acampar”</tspan></text>
+    </g>
+    <g class="content">
+      <text fill="#293845"><tspan x="358" y="-642.5" font-family="DIN Next, sans-serif" font-size="18">STRING</tspan></text>
+    </g>
+    <path fill="#f2d6f6" stroke="#BD34D1" stroke-width="2" d="M1579-181h240v104.5h-240z"/>
+    <g class="content">
+      <text fill="#293845"><tspan x="1641" y="-111.5" font-family="DIN Next, sans-serif" font-size="18">◎27 SOL</tspan></text>
+    </g>
+    <g class="content">
+      <text fill="#293845"><tspan x="1596" y="-146.5" font-family="DIN Next, sans-serif" font-size="18">Carteira do Bob</tspan></text>
+    </g>
+    <g transform="translate(1591 -131)">
+      <svg id="s37c6d24d-a364-4b42-a8b1-e2294a1a75ae" width="36" height="36" data-icon-color="#BD34D1" data-icon-name="single-02" data-icon-partition="g48-8" viewBox="0 0 48 48">
+        <path fill="#444" d="M30 29H18c-7.168 0-13 5.832-13 13v2c0 .435.281.82.695.953C5.957 45.036 12.229 47 24 47s18.043-1.964 18.305-2.047c.414-.133.695-.518.695-.953v-2c0-7.168-5.832-13-13-13z"/>
+        <path fill="#444" d="M24 25c6.195 0 11-6.988 11-13 0-6.065-4.935-11-11-11S13 5.935 13 12c0 6.012 4.805 13 11 13z" data-color="color-2"/>
+      </svg>
+    </g>
+    <g class="content">
+      <text fill="#293845"><tspan x="1653" y="-197.5" font-family="DIN Next, sans-serif" font-size="18">ENDEREÇO</tspan></text>
+    </g>
+    <circle cx="1633.5" cy="-202.5" r="11" fill="#e3cff3" stroke="#730FC3" stroke-width="2"/>
+    <rect width="253" height="87" x="1000" y="-216" fill="#FFF" filter="url(#fill-shadow)" rx="3" ry="3"/>
+    <rect width="253" height="87" x="1000" y="-216" fill="#2C88D9" rx="3" ry="3"/>
+    <g class="content">
+      <text fill="#FFF"><tspan x="1069.232" y="-166" font-family="DIN Next, sans-serif" font-size="18">“Lista de compras”</tspan></text>
+    </g>
+    <g class="content">
+      <text fill="#293845"><tspan x="1000" y="-221.5" font-family="DIN Next, sans-serif" font-size="18">STRING</tspan></text>
+    </g>
+    <path fill="#fae6d8" stroke="#E8833A" stroke-width="2" d="M1400 74h290.5v125H1400z"/>
+    <g transform="translate(1413 112)">
+      <svg id="s5ba66acb-97ca-457c-8644-9e133fdfd4b7" width="36" height="36" data-icon-color="#E8833A" data-icon-name="list" data-icon-partition="g48-5" viewBox="0 0 48 48">
+        <path fill="#444" d="M41 1H7a2 2 0 0 0-2 2v42a2 2 0 0 0 2 2h34a2 2 0 0 0 2-2V3a2 2 0 0 0-2-2zM15 38a2 2 0 1 1-.001-3.999A2 2 0 0 1 15 38zm4.707-16.293-5 5a.997.997 0 0 1-1.414 0l-2-2a.999.999 0 1 1 1.414-1.414L14 24.586l4.293-4.293a.999.999 0 1 1 1.414 1.414zm0-12-5 5a.997.997 0 0 1-1.414 0l-2-2a.999.999 0 1 1 1.414-1.414L14 12.586l4.293-4.293a.999.999 0 1 1 1.414 1.414zM36 37H24a1 1 0 1 1 0-2h12a1 1 0 1 1 0 2zm0-12H24a1 1 0 1 1 0-2h12a1 1 0 1 1 0 2zm0-12H24a1 1 0 1 1 0-2h12a1 1 0 1 1 0 2z" style="fill:#e8833a"/>
+      </svg>
+    </g>
+    <g class="content">
+      <text fill="#293845"><tspan x="1474" y="121.5" font-family="DIN Next, sans-serif" font-size="18">Feijões Borlotte</tspan></text>
+      <text fill="#293845"><tspan x="1474" y="145.5" font-family="DIN Next, sans-serif" font-size="18">Queijo Feta</tspan></text>
+      <text fill="#293845"><tspan x="1474" y="169.5" font-family="DIN Next, sans-serif" font-size="18">Menta</tspan></text>
+    </g>
+    <g class="content">
+      <text fill="#293845"><tspan x="1401" y="65.5" font-family="DIN Next, sans-serif" font-size="18">ENDEREÇO DERIVADO DO PROGRAMA</tspan></text>
+    </g>
+    <path fill="none" stroke="#C3CFD9" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M1176-121v70c0 8.284 6.716 15 15 15h110.5m45 0H1459c8.284 0 15 6.716 15 15v64"/>
+    <path fill="#C3CFD9" stroke="#C3CFD9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1479.541 39.908 1474 47l-5.541-7.092z"/>
+    <text xml:space="preserve" x="1305.5" y="-48" fill="#788896" font-family="DIN Next, sans-serif" font-size="18"><tspan x="1324" y="-30" style="white-space:pre" text-anchor="middle">cria</tspan></text>
+    <path fill="none" stroke="#C3CFD9" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M1564-128.75h-32c-8.284 0-15 6.716-15 15V-79m0 28v86"/>
+    <path fill="#C3CFD9" stroke="#C3CFD9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1522.541 31.908 1517 39l-5.541-7.092z"/>
+    <text xml:space="preserve" x="1498.5" y="-77" fill="#788896" font-family="DIN Next, sans-serif" font-size="18"><tspan x="1517" y="-59" style="white-space:pre" text-anchor="middle">cria</tspan></text>
+    <g class="content">
+      <text fill="#293845"><tspan x="1400" y="232.5" font-family="DIN Next, sans-serif" font-size="18">Lista de compras do Bob</tspan></text>
+    </g>
+    <g class="content">
+      <text fill="#293845"><tspan x="802" y="166.5" font-family="DIN Next, sans-serif" font-size="18">Lista de compras da Alice</tspan></text>
+    </g>
+    <g class="content">
+      <text fill="#293845"><tspan x="424" y="-33.5" font-family="DIN Next, sans-serif" font-size="18">Ideias para acampar da Alice</tspan></text>
+    </g>
+    <g class="content">
+      <text fill="#293845"><tspan x="1634.801" y="-1200" font-family="DIN Next, sans-serif" font-size="60">Programa de anotações</tspan></text>
+    </g>
+    <path fill="none" stroke="#C3CFD9" stroke-linecap="round" stroke-linejoin="round" stroke-width="4" d="M1104-121v17c0 8.284-6.716 15-15 15h-41.5m-45 0H961c-8.284 0-15 6.716-15 15v13"/>
+    <path fill="#C3CFD9" stroke="#C3CFD9" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M951.541-64.092 946-57l-5.541-7.092z"/>
+    <text xml:space="preserve" x="1006.5" y="-101" fill="#788896" font-family="DIN Next, sans-serif" font-size="18"><tspan x="1025" y="-83" style="white-space:pre" text-anchor="middle">cria</tspan></text>
+  </svg>
+</svg>
