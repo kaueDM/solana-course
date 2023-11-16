@@ -144,7 +144,7 @@ Durante testes, tanto localmente quanto na devnet, você pode usar o comando da 
 Todas as transações no blockchain são públicas e podem ser vistas no [Solana Explorer](http://explorer.solana.com). Por exemplo, você pode ver a assinatura retornada por `sendAndConfirmTransaction()` no exemplo acima, procurar por essa assinatura no Solana Explorer e ver:
 
 - quando ela aconteceu
-- em que block ela foi incluída
+- em que bloco ela foi incluída
 - a taxa da transação
 - e mais!
 
@@ -198,8 +198,8 @@ Dentro da função, nós precisamos:
 Lembre-se: a parte mais difícil é a inclusão das informações corretas na instrução. Nós sabemos o endereço do programa que estamos chamando. Nós também sabemos que o programa escreve dados em uma conta separada, que nós também temos. Vamos adicionar uma string com as versões de ambas as contas no topo do arquivo `index.ts`:
 
 ```typescript
-const PING_PROGRAM_ADDRESS = new web3.PublicKey('ChT1B39WKLS8qUrkLvFDXMhEJ4F1XZzwUNHUt4AU9aVa')
-const PING_PROGRAM_DATA_ADDRESS =  new web3.PublicKey('Ah9K7dQ8EHaZqcAsgBW8w37yN2eAy3koFmUn4x3CJtod')
+const PING_PROGRAM_ADDRESS = 'ChT1B39WKLS8qUrkLvFDXMhEJ4F1XZzwUNHUt4AU9aVa'
+const PING_PROGRAM_DATA_ADDRESS = 'Ah9K7dQ8EHaZqcAsgBW8w37yN2eAy3koFmUn4x3CJtod'
 ```
 
 Agora, dentro da função `sendPingTransaction()` vamos criar uma nova transação e então inicializar uma `PublicKey` para a conta do programa, e outra para a conta de dados.
@@ -308,7 +308,7 @@ E assim você está invocando programas na Solana e escrevendo dados na rede!
 
 ### Próximos passos
 
-Nas próximas lissões você aprenderá como
+Nas próximas lições você aprenderá como
 
 1. Enviar transações de forma segura a partir do navegador ao invés de executar um script
 2. Adicionar dados customizados as suas instruções
